@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / YOLO model weights
+*.pt
+*.onnx
+*.engine
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Output videos and temporary files
+*.mp4
+*.avi
+*.mov
+*.mkv
+output/
+temp/
